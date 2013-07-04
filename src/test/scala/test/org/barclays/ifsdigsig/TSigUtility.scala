@@ -12,8 +12,10 @@ import org.scalatest.junit.JUnitRunner
 
 @RunWith(classOf[JUnitRunner])
 class TSigUtility extends FunSuite {
-  val file = new File("""B:\Official\PKI\X509_PoC\work\AMSTest\ifs.messageway.test""")
-  val pass = "Password1234@"
+  //Replace the file name with a Valid Java Keystore
+  val file = new File("""C:\aJavaTest.keystore""")
+  //Provide the KeyStore password
+  val pass = "ADamnSimplePassword"
   val ks = SigUtility.getKeyStore(file, pass)
 
   test("01 KeyStore can be accessed") {
