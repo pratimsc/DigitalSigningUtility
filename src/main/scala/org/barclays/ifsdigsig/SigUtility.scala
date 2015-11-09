@@ -20,7 +20,7 @@ object SigUtility {
   val CRYPTO_PROVIDER = new BouncyCastleProvider
 
   def main(args: Array[String]): Unit = {
-    val keyStoreFile = """B:\Official\PKI\X509_PoC\work\AMSTest\ifs.messageway.test"""
+    val keyStoreFile = """B:\PKI\X509\test.keystore"""
   }
 
   /**
