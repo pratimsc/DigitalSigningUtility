@@ -1,4 +1,4 @@
-package org.barclays.ifsdigsig
+package cloud.yantra.oss.barclays.ifsdigsig
 
 import java.security.Security
 import org.bouncycastle.jce.provider.BouncyCastleProvider

@@ -1,12 +1,13 @@
-package test.org.barclays.ifsdigsig
+package cloud.yantra.oss.barclays.ifsdigsig
 
 import org.scalatest.FunSuite
 import org.junit.runner.RunWith
 import org.scalatest.FunSuite
-import org.barclays.ifsdigsig.SigUtility
 import java.io.File
 import java.security.interfaces.RSAPublicKey
 import java.security.Provider.Service
+
+import cloud.yantra.oss.barclays.ifsdigsig.SigUtility
 import org.bouncycastle.jce.provider.BouncyCastleProvider
 import org.scalatest.junit.JUnitRunner
 
